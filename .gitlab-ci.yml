@@ -1,0 +1,48 @@
+stages:
+  - build
+  - package
+
+bundle_application:
+  stage: build
+  image: gitlab.fdmci.hva.nl:5050/bd/2324-2/fysio/pythonappbuilder:latest
+  tags:
+    - windows-bd1-fysio
+  before_script:
+    - pip install -r requirements.txt
+    - cd app
+  script:
+    - pyinstaller --onefile --name=fysio_app --add-data="assets;assets" --add-data="pages;pages" --add-data="utils;utils" app.py
+  artifacts:
+    paths:
+      - app\dist\fysio_app.exe
+    expire_in: 1 hour
+  when: manual
+  only:
+    - development
+    - production
+
+package_files:
+  stage: package
+  image: ubuntu:latest
+  tags:
+    - hva
+  before_script:
+    - apt-get update
+    - apt-get -y install zip
+  script:
+    - mkdir -p dist/scraper
+    - cp app/dist/fysio_app.exe dist
+    - cp -R scraper/chrome dist/scraper/chrome
+    - cp -R scraper/chromedriver dist/scraper/chromedriver
+    - cd dist
+    - zip -r fysio_app_bundle.zip .
+  artifacts:
+    paths:
+      - dist/fysio_app_bundle.zip
+    expire_in: 1 day
+  dependencies:
+    - bundle_application
+  when: manual
+  only:
+    - development
+    - production
