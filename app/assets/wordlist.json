@@ -1,0 +1,179 @@
+{
+  "words_data": [
+    {
+      "word": "reductie",
+      "type": 1,
+      "weight": 4
+    },
+    {
+      "word": "eenvoudig",
+      "type": 1,
+      "weight": 3
+    },
+    {
+      "word": "enkelvoudig",
+      "type": 1,
+      "weight": 2
+    },
+    {
+      "word": "weglaten",
+      "type": 1,
+      "weight": 1
+    },
+    {
+      "word": "weggelaten",
+      "type": 1,
+      "weight": 1
+    },
+    {
+      "word": "buiten beschouwing",
+      "type": 1,
+      "weight": 3
+    },
+    {
+      "word": "exclusie",
+      "type": 1,
+      "weight": 4
+    },
+    {
+      "word": "unifactorieel",
+      "type": 1,
+      "weight": 1
+    },
+    {
+      "word": "causaliteit",
+      "type": 1,
+      "weight": 1
+    },
+    {
+      "word": "oorzaak",
+      "type": 1,
+      "weight": 2
+    },
+    {
+      "word": "gevolg",
+      "type": 1,
+      "weight": 2
+    },
+    {
+      "word": "overzichtelijk",
+      "type": 1,
+      "weight": 1
+    },
+    {
+      "word": "beperkt",
+      "type": 1,
+      "weight": 1
+    },
+    {
+      "word": "beperking",
+      "type": 1,
+      "weight": 1
+    },
+    {
+      "word": "gelimiteerd",
+      "type": 1,
+      "weight": 2
+    },
+    {
+      "word": "afgebakend",
+      "type": 1,
+      "weight": 3
+    },
+    {
+      "word": "lineair",
+      "type": 1,
+      "weight": 1
+    },
+    {
+      "word": "reactie",
+      "type": 1,
+      "weight": 2
+    },
+    {
+      "word": "complex",
+      "type": 2,
+      "weight": 1
+    },
+    {
+      "word": "gecompliceerd",
+      "type": 2,
+      "weight": 1
+    },
+    {
+      "word": "interactie",
+      "type": 2,
+      "weight": 1
+    },
+    {
+      "word": "multifactorieel",
+      "type": 2,
+      "weight": 1
+    },
+    {
+      "word": "ingewikkeld",
+      "type": 2,
+      "weight": 4
+    },
+    {
+      "word": "biopsychosociaal",
+      "type": 2,
+      "weight": 7
+    },
+    {
+      "word": "situationeel",
+      "type": 2,
+      "weight": 3
+    },
+    {
+      "word": "contextueel",
+      "type": 2,
+      "weight": 4
+    },
+    {
+      "word": "gestalt",
+      "type": 2,
+      "weight": 1
+    },
+    {
+      "word": "non-lineair",
+      "type": 2,
+      "weight": 2
+    },
+    {
+      "word": "meerdimensionaal",
+      "type": 2,
+      "weight": 3
+    },
+    {
+      "word": "onoverzichtelijk",
+      "type": 2,
+      "weight": 4
+    },
+    {
+      "word": "moeilijk",
+      "type": 2,
+      "weight": 4
+    },
+    {
+      "word": "niet",
+      "type": 3,
+      "weight": null
+    },
+    {
+      "word": "nooit",
+      "type": 3,
+      "weight": null
+    },
+    {
+      "word": "nimmer",
+      "type": 3,
+      "weight": null
+    },
+    {
+      "word": "geen",
+      "type": 3,
+      "weight": null
+    }
+  ]
+}
